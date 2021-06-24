@@ -4,8 +4,8 @@
   1.2 Установить: docker-compose
   1.3 Если система позволяет установить kitematick (https://kitematic.com/ интерфейс для визуального администрирования контейнеров)
 2. Склонировать файлы в ранее созданную директорию.
-  2.1 Склонировать framework в папку www/advanced/
-3. Пройти в директорию с файлами и выпонить из консоли "docker-compose up -d"
+  2.1 Склонировать Framework yii2 advanced в папку www/advanced/
+3. Пройти в директорию с файлом docker-compose.yml и выпонить из консоли "docker-compose up -d"
 4. После открыть kitematick или выполнить в консоли "docker ps -a": эта команда покажет наличие созданных контейнеров.
 5. Для установки composer зайти на контейнер php командой: docker exec -it <id контейнера> /bin/bash
 6. В контейнере php запустить: curl -sS https://getcomposer.org/installer | php mv composer.phar /usr/local/bin/composer
